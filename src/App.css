@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  max-width: 700px;
+  margin: 40px auto;
+  font-family: 'Comic Sans MS', cursive;
+  background: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+h1 {
+  color: #ff4500;
+  font-size: 2.5em;
+}
+h2 {
+  color: #4682b4;
+}
+.mood-input {
+  margin: 20px 0;
+}
+select, input {
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #ff1493;
+}
+.fortune {
+  margin: 20px 0;
+  font-size: 1.3em;
+  color: #9400d3;
+  font-style: italic;
+}
+.mood-list {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding: 15px;
+  background: #fffacd;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+li span {
+  font-size: 0.9em;
+  color: #555;
+}
+.fortune-past {
+  font-size: 1em;
+  color: #9400d3;
+}
